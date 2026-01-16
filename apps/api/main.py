@@ -1,3 +1,8 @@
-from app.main import app
+from fastapi import FastAPI
 
-__all__ = ["app"]
+app = FastAPI()
+
+
+@app.get("/health")
+def health() -> dict[str, str]:
+    return {"status": "ok"}
