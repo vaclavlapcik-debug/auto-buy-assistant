@@ -45,3 +45,10 @@ Open `http://localhost:3000` in your browser and upload a PDF manual.
 ## Definition of Done
 
 See [`docs/DoD.md`](docs/DoD.md).
+
+## Smoke test checklist
+
+- Upload a PDF and confirm the sections list appears.
+- Click a section and confirm the viewer navigates to the correct page.
+- Enable edit mode and draw a highlight box on the PDF.
+- Export a ZIP embed package and confirm the download completes.
